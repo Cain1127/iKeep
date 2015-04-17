@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>home_page_tab_view</key>
+	<array>
+		<dict>
+			<key>class</key>
+			<string>YSMMainHomeViewController</string>
+			<key>image</key>
+			<string>tab_bar_private_normal</string>
+			<key>image_selected</key>
+			<string>tab_bar_private_selected</string>
+			<key>title</key>
+			<string>主页</string>
+		</dict>
+		<dict>
+			<key>New item</key>
+			<string></string>
+			<key>class</key>
+			<string>YSMTalkViewController</string>
+			<key>image</key>
+			<string>tab_bar_home_normal</string>
+			<key>image_selected</key>
+			<string>tab_bar_home_selected</string>
+			<key>title</key>
+			<string>家人</string>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>YSMHealthyViewController</string>
+			<key>image</key>
+			<string>tab_bar_healthy_normal</string>
+			<key>image_selected</key>
+			<string>tab_bar_healthy_selected</string>
+			<key>title</key>
+			<string>健康</string>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>YSMNewsViewController</string>
+			<key>image</key>
+			<string>tab_bar_news_normal</string>
+			<key>image_selected</key>
+			<string>tab_bar_news_selected</string>
+			<key>title</key>
+			<string>资讯</string>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>YSMMallViewController</string>
+			<key>image</key>
+			<string>tab_bar_mall_normal</string>
+			<key>image_selected</key>
+			<string>tab_bar_mall_selected</string>
+			<key>title</key>
+			<string>商城</string>
+		</dict>
+	</array>
+	<key>guide_image_array</key>
+	<array>
+		<string>guide_image_01</string>
+		<string>guide_image_02</string>
+		<string>guide_image_03</string>
+	</array>
+</dict>
+</plist>
