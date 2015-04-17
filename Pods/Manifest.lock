@@ -1,0 +1,45 @@
+PODS:
+  - AFNetworking (2.3.1):
+    - AFNetworking/NSURLConnection (= 2.3.1)
+    - AFNetworking/NSURLSession (= 2.3.1)
+    - AFNetworking/Reachability (= 2.3.1)
+    - AFNetworking/Security (= 2.3.1)
+    - AFNetworking/Serialization (= 2.3.1)
+    - AFNetworking/UIKit (= 2.3.1)
+  - AFNetworking/NSURLConnection (2.3.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.3.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.3.1)
+  - AFNetworking/Security (2.3.1)
+  - AFNetworking/Serialization (2.3.1)
+  - AFNetworking/UIKit (2.3.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - ISO8601DateFormatterValueTransformer (0.6.0):
+    - RKValueTransformers (~> 1.1.0)
+  - RestKit/ObjectMapping (0.23.3):
+    - ISO8601DateFormatterValueTransformer (~> 0.6.0)
+    - RestKit/Support
+    - RKValueTransformers (~> 1.1.0)
+  - RestKit/Support (0.23.3):
+    - TransitionKit (= 2.1.0)
+  - RKValueTransformers (1.1.2)
+  - TransitionKit (2.1.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.3.1)
+  - RestKit/ObjectMapping (~> 0.23.3)
+
+SPEC CHECKSUMS:
+  AFNetworking: 05b9f6e3aa5ac45bc383b4bb108ef338080a26c7
+  ISO8601DateFormatterValueTransformer: 3ac3a721381697cab4e792d8049ce2f2e9ad3036
+  RestKit: e761211cf026c0d56b01d0c2fa1fe8903dc4e4f3
+  RKValueTransformers: 66ac5e4f077fdbe3496e792d89eeff4c3eb67701
+  TransitionKit: bc306605fb5e05a743c18d42239dc0e211619547
+
+COCOAPODS: 0.35.0
